@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rafał Adach portfolio </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    </head>
+
+
+
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Rafał Adach</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="images/Picture_2.jpg" alt="Random picture 1" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I can do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>HTML & CSS</h3>
+                    <p>I have good knowledge of HTML and CSS. I have done several projects using HTML and CSS. I am constantly developing by creating new projects, applications and websites.</p>
+                </div>
+
+                <div class="service">
+                    <h3>JavaScript</h3>
+                    <p>I have basic knowledge of JavaScript. I am still developing in this area and I take an active part in courses.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Java & Python</h3>
+                    <p>In my free time, I am learning the basics of Java and Python in order to better understand the Backend. Some of the small projects are on github page.</p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Junior Designer & developer based out of Katowice</p>
+
+            <div class="about-me__body">
+                <p>I'm an evironmental engineer by education. On a daily dasis, I deal with the design of sanitary installations. I graduated from the Silesian University of Technology at the Faculty of Encironmental Engineering.</p>
+                <p>I completed postgraduate studies at AGH in Software Development Methods. I'm learning programming at home in my spare time. My goal is to become a web developer.</p>
+            </div>
+
+            <img src="images/Picture_1.jpg" alt="" class="about-me__img">
+        </section>
+
+
+        <!-- My work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My projects</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+            <!-- Item 2 -->                
+                <a href="https://github.com/rafaladach" class="portfolio__item" target="_blank">
+                <img src="images/Work_img/HTML.jpg" alt="Portfolio project" class="portfolio__img"></a>   
+
+            <!-- Item 2 -->                
+                <a href="https://github.com/rafaladach/phyton_small_projects.git" class="portfolio__item" target="_blank">
+                <img src="images/Work_img/Python.jpg" alt="Python projects" class="portfolio__img"></a>
+           
+            <!-- Item 3 -->
+                <a href="https://github.com/rafaladach/java_small_projects.git" class="portfolio__item" target="_blank">
+                <img src="images/Work_img/Java.jpg" alt="Java projects" class="portfolio__img"></a>      
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto: rafal.adach95@gmail.com" class="footer_link">rafal.adach95@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/rafaladach" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://facebook.com/rafaladach95" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/rafaladach1995/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://instagram.com/adachinio/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
