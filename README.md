@@ -24,7 +24,8 @@ Hi, I'm Rafał, a junior frontend developer based in Poland currently looking fo
 + Java
 > [java_6_small_programs](https://github.com/rafaladach/java_6_small_programs.git)
 
-H3 You can contant me here 📫:
+You can contant me here 📫:
+<br/>
 [![website](./img/globe-light.svg)](https://rafaladach.github.io/my_portfolio/#gh-light-mode-only)
 [![website](./img/globe-dark.svg)](https://rafaladach.github.io/my_portfolio/#gh-dark-mode-only)
 &nbsp;&nbsp;
