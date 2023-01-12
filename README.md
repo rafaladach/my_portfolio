@@ -26,6 +26,7 @@ Hi, I'm Rafał, a junior frontend developer based in Poland currently looking fo
 
 You can contant me here 📫:
 <br/>
+<br/>
 [![website](./img/globe-light.svg)](https://rafaladach.github.io/my_portfolio/#gh-light-mode-only)
 [![website](./img/globe-dark.svg)](https://rafaladach.github.io/my_portfolio/#gh-dark-mode-only)
 &nbsp;&nbsp;
