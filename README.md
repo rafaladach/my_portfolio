@@ -19,10 +19,6 @@ Hi, I'm Rafał, a junior frontend developer based in Poland currently looking fo
 
 + HTML
 > [my_portfolio](https://github.com/rafaladach/my_portfolio.git)
-+ Python
-> [python_6_small_programs](https://github.com/rafaladach/python_6_small_programs.git)
-+ Java
-> [java_6_small_programs](https://github.com/rafaladach/java_6_small_programs.git)
 
 You can contant me here 📫:
 <br/>
